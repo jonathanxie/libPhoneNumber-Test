@@ -1,0 +1,15 @@
+# Building forms using UITableViews
+# https://github.com/xmartlabs/XLForm.git
+pod 'XLForm', :git => 'https://github.com/xmartlabs/XLForm.git'
+
+# NSRegularExpression extensions that make regular expressions easier in Objective-C, Swift, iOS, OSX
+# https://github.com/bendytree/Objective-C-RegEx-Categories
+pod 'RegExCategories', '~> 1.0'
+
+# iOS port from libphonenumber (Google's phone number handling library)
+# https://github.com/iziz/libPhoneNumber-iOS
+source 'https://github.com/CocoaPods/Specs.git'
+#pod 'libPhoneNumber-iOS', '~> 0.8.3'
+pod 'libPhoneNumber-iOS', :git => 'https://github.com/iziz/libPhoneNumber-iOS'
+
+
